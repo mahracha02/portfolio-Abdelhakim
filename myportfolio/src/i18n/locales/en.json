@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "internships": "Pro Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "techWatch": "Tech Watch",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "home": {
+    "title": "Full Stack Developer",
+    "subtitle": "Building modern web applications",
+    "cta": "View My Work"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Passionate, rigorous and with excellent analytical skills, I combine solid technical skills and rapid adaptability. Motivated to contribute to innovative projects while continuously developing my skills.",
+    "education": {
+      "title": "Education",
+      "degrees": [
+        {
+          "degree": "MBA Full-Stack Developer",
+          "school": "MyDigitalSchool",
+          "years": "2025 – 2027"
+        },
+        {
+          "degree": "Bachelor Web Developer",
+          "school": "MyDigitalSchool - Toulouse",
+          "years": "2024 – 2025"
+        },
+        {
+          "degree": "BTS SIO Option SLAM",
+          "school": "Lycée Suzanne Valadon - Limoges",
+          "years": "2022 – 2024"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "jobs": [
+        {
+          "title": "Full-Stack Developer",
+          "company": "Toulouse Art Gallery",
+          "period": "February 2025 - October 2025",
+          "description": "Development of a web application for managing exhibitions, events and artists. Stack: Symfony, React, PHP, JavaScript, Tailwind."
+        },
+        {
+          "title": "Full-Stack Developer",
+          "company": "3IL School – Limoges",
+          "period": "January 2024 - March 2024",
+          "description": "Development of a medical analysis web application using MVC model. Stack: HTML, CSS, Bootstrap, PHP."
+        },
+        {
+          "title": "Web Developer",
+          "company": "Broussaud Textiles – Limoges",
+          "period": "May 2023 - July 2023",
+          "description": "Development of MySQL queries in PHP for stock management. Stack: HTML, Bootstrap, JavaScript, PHP."
+        }
+      ]
+    }
+  },
+  "internships": {
+    "title": "Professional Experience",
+    "description": "My journey through various internships and professional experiences in web and software development.",
+    "experiences": [
+      {
+        "title": "FULL-STACK DEVELOPER | WEB APPLICATION",
+        "company": "Toulouse Art Gallery",
+        "location": "Toulouse",
+        "period": "9 months | 2025",
+        "description": "Development of a web application for managing exhibitions, events, and artists. Implementation of an artwork management system. Integration of a database to store information about events and artists. User experience optimization with a responsive Tailwind interface.",
+        "technologies": ["Symfony", "React", "PHP", "JavaScript", "Tailwind CSS"]
+      },
+      {
+        "title": "FULL-STACK DEVELOPER | WEB APPLICATION",
+        "company": "3IL School",
+        "location": "Limoges",
+        "period": "3 months | 2024",
+        "description": "Development of a medical analysis web application using MVC model. Database design and management with CSV files. User interface development with Bootstrap.",
+        "technologies": ["HTML", "CSS", "Bootstrap", "PHP"]
+      },
+      {
+        "title": "WEB DEVELOPER | STOCK MANAGEMENT SYSTEM",
+        "company": "Broussaud Textiles",
+        "location": "Limoges",
+        "period": "2 months | 2023",
+        "description": "Development of MySQL queries in PHP for stock management. Design and implementation of dynamic dashboards with HTML, CSS, JavaScript, and Bootstrap. Optimization of the stock management process.",
+        "technologies": ["HTML", "Bootstrap", "JavaScript", "PHP", "MySQL"]
+      },
+      {
+        "title": "FRONT-END DEVELOPER | SHOWCASE WEBSITE",
+        "company": "Restaurant Utopia",
+        "location": "Toulouse",
+        "period": "2025",
+        "description": "Creation of a responsive showcase website dedicated to a restaurant. User interface and user experience (UI/UX) design. Integration of animations and clear call-to-action.",
+        "technologies": ["React", "HTML", "JavaScript", "Tailwind CSS"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "A showcase of my best work and personal projects."
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "Technical skills and expertise"
+  },
+  "techWatch": {
+    "title": "Tech Watch",
+    "description": "Latest technology trends and research"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Get in touch with me",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    }
+  }
+} 

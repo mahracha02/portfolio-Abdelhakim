@@ -1,0 +1,51 @@
+/* Custom Swiper Styles */
+.experiences-swiper .swiper-pagination-bullet {
+  background: rgba(168, 85, 247, 0.3) !important;
+  opacity: 1 !important;
+  width: 12px !important;
+  height: 12px !important;
+  margin: 0 6px !important;
+}
+
+.experiences-swiper .swiper-pagination-bullet-active {
+  background: rgb(168, 85, 247) !important;
+  transform: scale(1.2);
+}
+
+.experiences-swiper .swiper-slide {
+  height: auto !important;
+  padding-bottom: 20px;
+}
+
+.experiences-swiper .swiper-pagination {
+  bottom: 0 !important;
+}
+
+/* Custom navigation buttons */
+.swiper-button-prev-custom:hover,
+.swiper-button-next-custom:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .swiper-button-prev-custom,
+  .swiper-button-next-custom {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .swiper-button-prev-custom {
+    left: 10px;
+  }
+  
+  .swiper-button-next-custom {
+    right: 10px;
+  }
+}
+
+/* Coverflow effect enhancements */
+.experiences-swiper .swiper-slide-shadow-left,
+.experiences-swiper .swiper-slide-shadow-right {
+  background-image: linear-gradient(to right, rgba(168, 85, 247, 0.1), transparent) !important;
+}

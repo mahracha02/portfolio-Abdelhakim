@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "internships": "Experiences Pro",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "techWatch": "Veille Tech",
+    "contact": "Contact",
+    "language": "Langue"
+  },
+  "footer": {
+    "rights": "Tous droits réservés"
+  },
+  "home": {
+    "title": "Développeur Full Stack",
+    "subtitle": "Création d'applications web modernes",
+    "cta": "Voir Mes Projets"
+  },
+  "about": {
+    "title": "À Propos",
+    "description": "Passionné, rigoureux et doté d'un excellent esprit d'analyse, je combine compétences techniques solides et capacité d'adaptation rapide. Motivé pour contribuer à des projets innovants tout en développant continuellement mes compétences.",
+    "education": {
+      "title": "Éducation",
+      "degrees": [
+        {
+          "degree": "MBA Développeur Full-Stack",
+          "school": "MyDigitalSchool",
+          "years": "2025 – 2027"
+        },
+        {
+          "degree": "Bachelor Développeur Web",
+          "school": "MyDigitalSchool - Toulouse",
+          "years": "2024 – 2025"
+        },
+        {
+          "degree": "BTS SIO Option SLAM",
+          "school": "Lycée Suzanne Valadon - Limoges",
+          "years": "2022 – 2024"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Expérience",
+      "jobs": [
+        {
+          "title": "Développeur Full-Stack",
+          "company": "Galerie d'art Toulousaine",
+          "period": "Février 2025 - Octobre 2025",
+          "description": "Développement d'une application web pour la gestion des expositions, des évènements et des artistes. Stack: Symfony, React, PHP, JavaScript, Tailwind."
+        },
+        {
+          "title": "Développeur Full-Stack",
+          "company": "École 3IL – Limoges",
+          "period": "janvier 2024 - Mars 2024",
+          "description": "Développement d'une application web d'analyse médicale en modèle MVC. Stack: HTML, CSS, Bootstrap, PHP."
+        },
+        {
+          "title": "Développeur Web",
+          "company": "Broussaud Textiles – Limoges",
+          "period": "Mai 2023 - Juillet 2023",
+          "description": "Développement de requêtes MySQL en PHP pour la gestion des stocks. Stack: HTML, Bootstrap, JavaScript, PHP."
+        }
+      ]
+    }
+  },
+  "internships": {
+    "title": "Expérience Professionnelle",
+    "description": "Mon parcours à travers différents stages et expériences professionnelles dans le développement web et logiciel.",
+    "experiences": [
+      {
+        "title": "DÉVELOPPEUR FULL-STACK | APPLICATION WEB",
+        "company": "Galerie d'art Toulousaine",
+        "location": "Toulouse",
+        "period": "9 mois | 2025",
+        "description": "Développement d'une application web pour la gestion des expositions, des évènements et des artistes. Mise en place d'un système de gestion des œuvres. Intégration d'une base de données pour stocker les informations sur les événements et les artistes. Optimisation de l'expérience utilisateur avec une interface responsive en Tailwind.",
+        "technologies": ["Symfony", "React", "PHP", "JavaScript", "Tailwind CSS"]
+      },
+      {
+        "title": "DÉVELOPPEUR FULL-STACK | APPLICATION WEB",
+        "company": "École 3IL",
+        "location": "Limoges",
+        "period": "3 mois | 2024",
+        "description": "Développement d'une application web d'analyse médicale en modèle MVC. Conception et gestion de la base de données avec des fichiers CSV. Développement de l'interface utilisateur avec Bootstrap.",
+        "technologies": ["HTML", "CSS", "Bootstrap", "PHP"]
+      },
+      {
+        "title": "DÉVELOPPEUR WEB | SYSTÈME GESTION DE STOCK",
+        "company": "Broussaud Textiles",
+        "location": "Limoges",
+        "period": "2 mois | 2023",
+        "description": "Développement de requêtes MySQL en PHP pour la gestion des stocks. Conception et implémentation de Dashboards dynamiques avec HTML, CSS, JavaScript et Bootstrap. Optimisation du processus de gestion des stocks.",
+        "technologies": ["HTML", "Bootstrap", "JavaScript", "PHP", "MySQL"]
+      },
+      {
+        "title": "DÉVELOPPEUR FRONT-END | SITE WEB VITRINE",
+        "company": "Restaurant Utopia",
+        "location": "Toulouse",
+        "period": "2025",
+        "description": "Création d'un site web vitrine responsive dédiée à un restaurant. Conception de l'interface utilisateur et expérience utilisateur (UI/UX). Intégration d'animations et d'un appel à l'action clair.",
+        "technologies": ["React", "HTML", "JavaScript", "Tailwind CSS"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projets",
+    "description": "Une vitrine de mes meilleurs travaux et projets personnels."
+  },
+  "skills": {
+    "title": "Compétences",
+    "description": "Compétences techniques et expertise"
+  },
+  "techWatch": {
+    "title": "Veille Technologique",
+    "description": "Dernières tendances et recherches technologiques"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Entrez en contact avec moi",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "send": "Envoyer"
+    }
+  }
+} 
