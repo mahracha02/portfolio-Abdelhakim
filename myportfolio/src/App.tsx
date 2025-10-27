@@ -15,7 +15,7 @@ import ProjectDetail from './pages/ProjectDetail';
 
 export default function App() {
   return (
-    <Router basename="/myportfolioIT">
+    <Router basename="/portfolio-Abdelhakim">
       <div className="relative min-h-screen  text-white">
         <Background3D />
         <div className="relative z-10">
