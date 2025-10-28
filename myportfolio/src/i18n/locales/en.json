@@ -15,7 +15,27 @@
   "home": {
     "title": "Full Stack Developer",
     "subtitle": "Building modern web applications",
-    "cta": "View My Work"
+    "cta": "View My Work",
+    "stats": {
+      "projects": "Projects",
+      "technologies": "Technologies", 
+      "study": "Study",
+      "passion": "Passion"
+    },
+    "developer": "Full-Stack Developer",
+    "description": "Passionate, rigorous and with excellent analytical skills, I combine solid technical skills and rapid adaptability. Motivated to contribute to innovative projects while continuously developing my skills.",
+    "downloadCV": "Download CV",
+    "viewPortfolio": "View Portfolio",
+    "techStack": "Technology Stack",
+    "techDescription": "Tools and technologies I work with",
+    "ctaSection": {
+      "title": "Ready for the next challenge?",
+      "subtitle": "Let's collaborate to create something extraordinary"
+    },
+    "modal": {
+      "download": "Download",
+      "openNewTab": "Open in new tab"
+    }
   },
   "about": {
     "title": "About Me",
@@ -69,6 +89,14 @@
     "description": "My journey through various internships and professional experiences in web and software development.",
     "experiences": [
       {
+        "title": "FRONT-END DEVELOPER | SHOWCASE WEBSITE",
+        "company": "Restaurant Utopia",
+        "location": "Toulouse",
+        "period": "2025",
+        "description": "Creation of a responsive showcase website dedicated to a restaurant. User interface and user experience (UI/UX) design. Integration of animations and clear call-to-action.",
+        "technologies": ["React", "HTML", "JavaScript", "Tailwind CSS"]
+      },
+      {
         "title": "FULL-STACK DEVELOPER | WEB APPLICATION",
         "company": "Toulouse Art Gallery",
         "location": "Toulouse",
@@ -91,37 +119,358 @@
         "period": "2 months | 2023",
         "description": "Development of MySQL queries in PHP for stock management. Design and implementation of dynamic dashboards with HTML, CSS, JavaScript, and Bootstrap. Optimization of the stock management process.",
         "technologies": ["HTML", "Bootstrap", "JavaScript", "PHP", "MySQL"]
-      },
-      {
-        "title": "FRONT-END DEVELOPER | SHOWCASE WEBSITE",
-        "company": "Restaurant Utopia",
-        "location": "Toulouse",
-        "period": "2025",
-        "description": "Creation of a responsive showcase website dedicated to a restaurant. User interface and user experience (UI/UX) design. Integration of animations and clear call-to-action.",
-        "technologies": ["React", "HTML", "JavaScript", "Tailwind CSS"]
       }
     ]
   },
   "projects": {
-    "title": "Projects",
-    "description": "A showcase of my best work and personal projects."
+    "title": "My Projects",
+    "description": "A showcase of my best work and innovative solutions",
+    "exploreProject": "Explore Project",
+    "filters": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "ecommerce": "E-commerce",
+      "game": "Game"
+    },
+    "stats": {
+      "totalProjects": "Total Projects",
+      "technologies": "Technologies",
+      "completed": "Completed",
+      "liveSites": "Live Sites"
+    },
+    "cta": {
+      "title": "Ready to Collaborate?",
+      "description": "Let's build something amazing together"
+    },
+    "items": [
+      {
+        "title": "Toulouse Art Gallery",
+        "description": "Web application for managing exhibitions, events and artists. Artwork management system with integrated database and responsive interface."
+      },
+      {
+        "title": "Restaurant Utopia",
+        "description": "Responsive showcase website dedicated to a restaurant. Modern UI/UX design with animations and call-to-action optimized for user experience."
+      },
+      {
+        "title": "Swiss Padel Stars",
+        "description": "Development of Swiss Padel Stars website to establish the brand as an essential padel reference in Switzerland. Premium e-commerce site for selling padel ping-pong tables to individuals."
+      },
+      {
+        "title": "Escape The Web",
+        "description": "Interactive game where players must solve puzzles by interacting with a web interface. Each puzzle is validated by unit and E2E tests to guarantee optimal user experience."
+      },
+      {
+        "title": "SuperMarket App",
+        "description": "Mobile application for a supermarket allowing users to browse products, manage their cart and place online orders."
+      },
+      {
+        "title": "E-commerce Watch Landing Page",
+        "description": "Landing page for an online watch store, optimized for conversion with clean design and clear calls-to-action."
+      },
+      {
+        "title": "Medical Analysis Management Application",
+        "description": "Complete web application for viewing medical analysis results, entering patient results and generating statistics. Intuitive interface with dedicated patient and doctor spaces."
+      }
+    ]
+  },
+  "projectDetails": {
+    "backToProjects": "Back to Projects",
+    "visitSite": "Visit Site",
+    "viewCode": "View Code",
+      "aboutProject": "About Project",
+      "preview": "Preview",
+      "projectRating": "Project Rating",
+      "featuresDescription": "Explore the powerful capabilities of this project",
+      "demoPreview": "Demo Preview",
+      "demoInProgressTitle": "Demo in development",
+      "demoInProgressDescription": "The demo will be available soon",
+      "rating": {
+        "complexity": "Complexity",
+        "innovation": "Innovation",
+        "design": "Design"
+      },
+    "projectOverview": "Project Overview",
+    "technologiesUsed": "Technologies Used",
+    "keyFeatures": "Key Features",
+    "projectDetails": "Project Details",
+    "duration": "Duration",
+    "company": "Company",
+    "location": "Location",
+    "items": [
+      {
+        "title": "Toulouse Art Gallery",
+        "description": "Complete web application for managing a modern art gallery. This application allows managing exhibitions, events and artist profiles with an advanced artwork management system.",
+        "fullDescription": "Development of a robust web application for complete art gallery management. The project includes an exhibition management system with event planning, a digital catalog of works with complete metadata, and detailed artist profiles. The responsive interface optimizes the user experience on all devices.",
+        "features": [
+          "Exhibition and event management",
+          "Artwork cataloging system",
+          "Artist profiles with portfolios",
+          "Complete administration interface",
+          "Responsive and modern design",
+          "Optimized database"
+        ],
+        "duration": "9 months | 2025",
+        "company": "Toulouse Art Gallery"
+      },
+      {
+        "title": "Restaurant Utopia",
+        "description": "Responsive showcase website dedicated to a restaurant. Modern UI/UX design with animations and call-to-action optimized for user experience.",
+        "fullDescription": "Creation of an elegant showcase website for Restaurant Utopia. The project focuses on exceptional user experience with smooth animations, intuitive navigation and responsive design. The interface presents the menu, restaurant atmosphere and facilitates reservations.",
+        "features": [
+          "Modern responsive design",
+          "Smooth animations and transitions",
+          "Reservation interface",
+          "Interactive photo gallery",
+          "SEO optimization",
+          "Strategic call-to-actions"
+        ],
+        "duration": "2 months | 2025",
+        "company": "Restaurant Utopia"
+      },
+      {
+        "title": "Swiss Padel Stars",
+        "description": "Development of Swiss Padel Stars website to establish the brand as an essential padel reference in Switzerland. Premium e-commerce site for selling padel ping-pong tables to individuals.",
+        "fullDescription": "Development of a complete e-commerce platform for Swiss Padel Stars, specialized in selling padel ping-pong tables. The project includes a product management system, advanced shopping cart, secure ordering process and administration interface for inventory management.",
+        "features": [
+          "Complete e-commerce store",
+          "Product and inventory management",
+          "Secure payment system",
+          "Administration interface",
+          "Premium responsive design",
+          "Performance optimization"
+        ],
+        "duration": "4 months | 2025",
+        "company": "Swiss Padel Stars"
+      },
+      {
+        "title": "Escape The Web",
+        "description": "Interactive game where players must solve puzzles by interacting with a web interface. Each puzzle is validated by unit and E2E tests to guarantee optimal user experience.",
+        "fullDescription": "Development of an innovative interactive web game combining puzzles and programming. Players progress by solving technical challenges while learning web development concepts. The project includes a progression system, level saving and automatic solution validation.",
+        "features": [
+          "Interactive game system",
+          "Progressive puzzles",
+          "Unit and E2E testing",
+          "Progress saving",
+          "Gamified user interface",
+          "Automatic validation"
+        ],
+        "duration": "3 months | 2024",
+        "company": "Personal Project"
+      },
+      {
+        "title": "SuperMarket App",
+        "description": "Mobile application for a supermarket allowing users to browse products, manage their cart and place online orders.",
+        "fullDescription": "Development of a complete mobile application for supermarket with React Native. The application offers a smooth shopping experience with category navigation, advanced search, cart management and ordering system. Mobile-optimized interface with high performance.",
+        "features": [
+          "Category navigation",
+          "Advanced search and filters",
+          "Cart management",
+          "Ordering system",
+          "Mobile-optimized interface",
+          "Real-time synchronization"
+        ],
+        "duration": "3 months | 2024",
+        "company": "Personal Project"
+      },
+      {
+        "title": "E-commerce Watch Landing Page",
+        "description": "Landing page for an online watch store, optimized for conversion with clean design and clear calls-to-action.",
+        "fullDescription": "Creation of a high-conversion landing page for a premium watch store. The minimalist design highlights products with clear visual hierarchy, customer testimonials and strategically placed call-to-actions to maximize conversions.",
+        "features": [
+          "Premium minimalist design",
+          "Conversion optimization",
+          "Strategic call-to-actions",
+          "Customer testimonials",
+          "Responsive design",
+          "Engagement animations"
+        ],
+        "duration": "1 month | 2024",
+        "company": "Personal Project"
+      },
+      {
+        "title": "Medical Analysis Management Application",
+        "description": "Complete web application for viewing medical analysis results, entering patient results and generating statistics. Intuitive interface with dedicated patient and doctor spaces.",
+        "fullDescription": "Development of a secure web application for medical analysis management. The system allows patients to view their results and doctors to enter data with automatic report generation. MVC architecture with access rights management and enhanced security.",
+        "features": [
+          "Secure data management",
+          "Patient and doctor spaces",
+          "Report generation",
+          "MVC architecture",
+          "Access control",
+          "Bootstrap responsive interface"
+        ],
+        "duration": "3 months | 2024",
+        "company": "3IL School"
+      },
+      {
+        "title": "SuperMarket App",
+        "description": "Mobile application for a supermarket allowing users to browse products, manage their cart and place online orders.",
+        "fullDescription": "Development of a complete mobile application for supermarket with React Native. The application offers a smooth shopping experience with category navigation, advanced search, cart management and ordering system. Mobile-optimized interface with high performance.",
+        "features": [
+          "Intuitive product navigation",
+          "Smooth cart management",
+          "Easy online ordering",
+          "Modern user interface",
+          "User optimization",
+          "Product management system"
+        ],
+        "duration": "2025",
+        "company": "Personal Project"
+      },
+      {
+        "title": "E-commerce Watch Landing Page",
+        "description": "Landing page for an online watch store, optimized for conversion with clean design and clear calls-to-action.",
+        "fullDescription": "Creation of a high-conversion landing page for a premium watch store. The minimalist design highlights products with clear visual hierarchy, customer testimonials and strategically placed call-to-actions to maximize conversions.",
+        "features": [
+          "Responsive design",
+          "Modern user interface",
+          "Smooth animations",
+          "Clear call-to-action",
+          "Advanced UX/UI optimization",
+          "Figma design usage"
+        ],
+        "duration": "2025",
+        "company": "Training Project"
+      }
+    ]
   },
   "skills": {
     "title": "Skills",
-    "description": "Technical skills and expertise"
+    "description": "Technical skills and expertise",
+    "level": "Level",
+    "categories": [
+      {
+        "title": "Programming Languages"
+      },
+      {
+        "title": "Frameworks & Libraries"
+      },
+      {
+        "title": "Databases"
+      },
+      {
+        "title": "Tools & DevOps"
+      },
+      {
+        "title": "Languages",
+        "skills": [
+          {
+            "name": "Arabic",
+            "description": "Native language"
+          },
+          {
+            "name": "French",
+            "description": "Professional level"
+          },
+          {
+            "name": "Spanish",
+            "description": "Intermediate level"
+          },
+          {
+            "name": "English",
+            "description": "Intermediate level"
+          }
+        ]
+      },
+      {
+        "title": "Soft Skills",
+        "skills": [
+          {
+            "name": "Teamwork"
+          },
+          {
+            "name": "Communication"
+          },
+          {
+            "name": "Project Management"
+          }
+        ]
+      }
+    ]
   },
   "techWatch": {
     "title": "Tech Watch",
-    "description": "Latest technology trends and research"
+    "description": "Discover my 6 main sources of technology watch to stay at the forefront of innovation and modern web development",
+    "exploreResources": "Explore More Resources",
+    "hideResources": "Hide Resources",
+    "additionalResources": {
+      "title": "Additional Resources"
+    },
+    "items": [
+      {
+        "title": "Using ChatGPT",
+        "description": "The use of ChatGPT has spread across various fields, from education to customer service management. ChatGPT helps automate writing tasks, provides interactive user support and improves process efficiency by providing instant and accurate responses.",
+        "category": "Artificial Intelligence"
+      },
+      {
+        "title": "Udemy and YouTube Courses",
+        "description": "Online learning platforms such as Udemy and YouTube are invaluable resources for developers looking to acquire new skills or deepen their knowledge. These platforms offer a wide range of courses and tutorials.",
+        "category": "Continuous Learning"
+      },
+      {
+        "title": "Developer Groups",
+        "description": "Professional and community social networks like LinkedIn, Reddit, and Stack Overflow are ideal platforms for developers wanting to stay informed about the latest trends and share information.",
+        "category": "Tech Community"
+      },
+      {
+        "title": "Tech Articles & Innovation",
+        "description": "Reading technology articles and blogs is crucial to staying up to date with recent innovations and developments. Sites like TechCrunch, Wired, and Medium offer in-depth analysis and news from the technology industry.",
+        "category": "Tech News"
+      },
+      {
+        "title": "W3Schools - Programming",
+        "description": "W3Schools is an essential resource for programming beginners. The site offers interactive tutorials and practical exercises on various programming languages and web technologies.",
+        "category": "Code Learning"
+      },
+      {
+        "title": "Cybersecurity Sites",
+        "description": "Cybersecurity is a major concern for developers and businesses. Specialized sites like Krebs on Security, SecurityWeek, and the OWASP blog provide vital information on current threats and security best practices.",
+        "category": "Security"
+      }
+    ],
+    "additionalItems": [
+      {
+        "title": "GitHub & Open Source",
+        "description": "Exploring open source projects on GitHub to discover new technologies, study quality code and contribute to the community. GitHub Trending allows you to follow emerging technologies and popular libraries in the development ecosystem.",
+        "category": "Open Source"
+      },
+      {
+        "title": "Technical Documentation",
+        "description": "Regular reading of official documentation for frameworks and technologies (React, Vue, Angular, Node.js). Changelogs and release notes help track developments, new features and best practices recommended by technology creators.",
+        "category": "Documentation"
+      },
+      {
+        "title": "Coding Challenges & Hackathons",
+        "description": "Participation in programming challenges on platforms like HackerRank, CodeWars, and LeetCode. Hackathons and development contests allow you to discover new approaches, test recent technologies and improve problem-solving skills.",
+        "category": "Practice & Challenges"
+      }
+    ]
   },
   "contact": {
-    "title": "Contact",
-    "description": "Get in touch with me",
+    "title": "Let's Connect",
+    "subtitle": "Ready to bring your ideas to life? Let's start a conversation about your next project",
+    "error": "An error occurred. Please try again.",
     "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "send": "Send Message"
+      "title": "Send Message",
+      "description": "I'd love to hear from you. Send me a message and I'll respond as soon as possible.",
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": {
+        "title": "Message Sent!",
+        "message": "Thank you for reaching out. I'll get back to you soon."
+      }
+    },
+    "info": {
+      "title": "Get In Touch",
+      "description": "Connect with me through any of these channels. I'm always excited to discuss new opportunities and collaborations."
+    },
+    "stats": {
+      "responseTime": "Response Time",
+      "replyRate": "Reply Rate"
     }
   }
 } 

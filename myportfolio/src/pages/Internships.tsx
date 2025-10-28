@@ -35,7 +35,7 @@ const Internships = () => {
   const experienceStats = [
     { label: 'Total Experience', value: '14+ months', icon: FaClock },
     { label: 'Projects Completed', value: '4+', icon: FaProjectDiagram },
-    { label: 'Technologies Used', value: '15+', icon: FaCode },
+    { label: 'Technologies Used', value: '14+', icon: FaCode },
     { label: 'Companies Worked', value: '4', icon: FaBuilding }
   ];
 
@@ -117,7 +117,7 @@ const Internships = () => {
           </motion.div>
           
           <motion.h1 
-            className="text-5xl md:text-7xl font-black bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent mb-8 tracking-tight"
+            className="text-5xl md:text-7xl font-black bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent mb-8 tracking-tight pb-4"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}

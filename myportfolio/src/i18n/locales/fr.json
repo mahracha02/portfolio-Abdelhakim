@@ -15,7 +15,27 @@
   "home": {
     "title": "Développeur Full Stack",
     "subtitle": "Création d'applications web modernes",
-    "cta": "Voir Mes Projets"
+    "cta": "Voir Mes Projets",
+    "stats": {
+      "projects": "Projets",
+      "technologies": "Technologies", 
+      "study": "Études",
+      "passion": "Passion"
+    },
+    "developer": "Développeur Full-Stack",
+    "description": "Passionné, rigoureux et doté d'un excellent esprit d'analyse, je combine compétences techniques solides et capacité d'adaptation rapide. Motivé pour contribuer à des projets innovants.",
+    "downloadCV": "Télécharger CV",
+    "viewPortfolio": "Voir Portfolio",
+    "techStack": "Stack Technologique",
+    "techDescription": "Outils et technologies que j'utilise",
+    "ctaSection": {
+      "title": "Prêt pour le prochain défi ?",
+      "subtitle": "Collaborons pour créer quelque chose d'extraordinaire"
+    },
+    "modal": {
+      "download": "Télécharger",
+      "openNewTab": "Ouvrir dans un nouvel onglet"
+    }
   },
   "about": {
     "title": "À Propos",
@@ -69,6 +89,14 @@
     "description": "Mon parcours à travers différents stages et expériences professionnelles dans le développement web et logiciel.",
     "experiences": [
       {
+        "title": "DÉVELOPPEUR FRONT-END | SITE WEB VITRINE",
+        "company": "Restaurant Utopia",
+        "location": "Toulouse",
+        "period": "2025",
+        "description": "Création d'un site web vitrine responsive dédiée à un restaurant. Conception de l'interface utilisateur et expérience utilisateur (UI/UX). Intégration d'animations et d'un appel à l'action clair.",
+        "technologies": ["React", "HTML", "JavaScript", "Tailwind CSS"]
+      },
+      {
         "title": "DÉVELOPPEUR FULL-STACK | APPLICATION WEB",
         "company": "Galerie d'art Toulousaine",
         "location": "Toulouse",
@@ -91,37 +119,358 @@
         "period": "2 mois | 2023",
         "description": "Développement de requêtes MySQL en PHP pour la gestion des stocks. Conception et implémentation de Dashboards dynamiques avec HTML, CSS, JavaScript et Bootstrap. Optimisation du processus de gestion des stocks.",
         "technologies": ["HTML", "Bootstrap", "JavaScript", "PHP", "MySQL"]
-      },
-      {
-        "title": "DÉVELOPPEUR FRONT-END | SITE WEB VITRINE",
-        "company": "Restaurant Utopia",
-        "location": "Toulouse",
-        "period": "2025",
-        "description": "Création d'un site web vitrine responsive dédiée à un restaurant. Conception de l'interface utilisateur et expérience utilisateur (UI/UX). Intégration d'animations et d'un appel à l'action clair.",
-        "technologies": ["React", "HTML", "JavaScript", "Tailwind CSS"]
       }
     ]
   },
   "projects": {
-    "title": "Projets",
-    "description": "Une vitrine de mes meilleurs travaux et projets personnels."
+    "title": "Mes Projets",
+    "description": "Une vitrine de mes meilleurs travaux et solutions innovantes",
+    "exploreProject": "Explorer le Projet",
+    "filters": {
+      "all": "Tous",
+      "web": "Web",
+      "mobile": "Mobile",
+      "ecommerce": "E-commerce",
+      "game": "Jeu"
+    },
+    "stats": {
+      "totalProjects": "Projets Total",
+      "technologies": "Technologies",
+      "completed": "Terminés",
+      "liveSites": "Sites Live"
+    },
+    "cta": {
+      "title": "Prêt à Collaborer ?",
+      "description": "Construisons quelque chose d'incroyable ensemble"
+    },
+    "items": [
+      {
+        "title": "Galerie d'art Toulousaine",
+        "description": "Application web pour la gestion des expositions, des évènements et des artistes. Système de gestion des œuvres avec base de données intégrée et interface responsive."
+      },
+      {
+        "title": "Restaurant Utopia",
+        "description": "Site web vitrine responsive dédié à un restaurant. Conception UI/UX moderne avec animations et appel à l'action optimisé pour l'expérience utilisateur."
+      },
+      {
+        "title": "Swiss Padel Stars",
+        "description": "Développement du site internet de Swiss Padel Stars pour établir la marque comme référence incontournable du padel en Suisse. Site e-commerce premium pour la vente de tables de padel ping-pong aux particuliers."
+      },
+      {
+        "title": "Escape The Web",
+        "description": "Jeu interactif où les joueurs doivent résoudre des énigmes en interagissant avec une interface web. Chaque énigme est validée par des tests unitaires et E2E pour garantir une expérience utilisateur optimale."
+      },
+      {
+        "title": "SuperMarket App",
+        "description": "Application mobile pour un supermarché permettant aux utilisateurs de parcourir les produits, gérer leur panier et passer des commandes en ligne."
+      },
+      {
+        "title": "Landing Page E-commerce Montres",
+        "description": "Page d'atterrissage pour une boutique en ligne de montres, optimisée pour la conversion avec un design épuré et des appels à l'action clairs."
+      },
+      {
+        "title": "Application de Gestion des Analyses Médicales",
+        "description": "Application web complète permettant de consulter les résultats des analyses médicales, saisir les résultats des patients et générer des statistiques. Interface intuitive avec espaces dédiés patients et médecins."
+      }
+    ]
+  },
+  "projectDetails": {
+    "backToProjects": "Retour aux Projets",
+    "visitSite": "Visiter le Site",
+    "viewCode": "Voir le Code",
+      "aboutProject": "À propos du projet",
+      "preview": "Aperçu",
+      "projectRating": "Note du Projet",
+      "featuresDescription": "Explorez les puissantes fonctionnalités de ce projet",
+      "demoPreview": "Aperçu Démo",
+      "demoInProgressTitle": "Démo en cours de développement",
+      "demoInProgressDescription": "La démo sera bientôt disponible",
+      "rating": {
+        "complexity": "Complexité",
+        "innovation": "Innovation",
+        "design": "Design"
+      },
+    "projectOverview": "Aperçu du Projet",
+    "technologiesUsed": "Technologies Utilisées",
+    "keyFeatures": "Fonctionnalités Clés",
+    "projectDetails": "Détails du Projet",
+    "duration": "Durée",
+    "company": "Entreprise",
+    "location": "Localisation",
+    "items": [
+      {
+        "title": "Galerie d'art Toulousaine",
+        "description": "Application web complète pour la gestion d'une galerie d'art moderne. Cette application permet de gérer les expositions, les événements et les profils d'artistes avec un système avancé de gestion des œuvres.",
+        "fullDescription": "Développement d'une application web robuste pour la gestion complète d'une galerie d'art. Le projet inclut un système de gestion des expositions avec planification d'événements, un catalogue numérique des œuvres avec métadonnées complètes, et des profils détaillés d'artistes. L'interface responsive optimise l'expérience utilisateur sur tous les appareils.",
+        "features": [
+          "Gestion des expositions et événements",
+          "Système de catalogage des œuvres d'art",
+          "Profils d'artistes avec portfolios",
+          "Interface d'administration complète",
+          "Design responsive et moderne",
+          "Base de données optimisée"
+        ],
+        "duration": "9 mois | 2025",
+        "company": "Galerie d'art Toulousaine"
+      },
+      {
+        "title": "Restaurant Utopia",
+        "description": "Site web vitrine responsive dédié à un restaurant. Conception UI/UX moderne avec animations et appel à l'action optimisé pour l'expérience utilisateur.",
+        "fullDescription": "Création d'un site web vitrine élégant pour le restaurant Utopia. Le projet met l'accent sur une expérience utilisateur exceptionnelle avec des animations fluides, une navigation intuitive et un design responsive. L'interface présente le menu, l'ambiance du restaurant et facilite les réservations.",
+        "features": [
+          "Design responsive moderne",
+          "Animations et transitions fluides",
+          "Interface de réservation",
+          "Galerie photos interactive",
+          "Optimisation SEO",
+          "Appels à l'action stratégiques"
+        ],
+        "duration": "2 mois | 2025",
+        "company": "Restaurant Utopia"
+      },
+      {
+        "title": "Swiss Padel Stars",
+        "description": "Développement du site internet de Swiss Padel Stars pour établir la marque comme référence incontournable du padel en Suisse. Site e-commerce premium pour la vente de tables de padel ping-pong aux particuliers.",
+        "fullDescription": "Développement d'une plateforme e-commerce complète pour Swiss Padel Stars, spécialisée dans la vente de tables de padel ping-pong. Le projet inclut un système de gestion des produits, panier d'achat avancé, processus de commande sécurisé et interface d'administration pour la gestion des stocks.",
+        "features": [
+          "Boutique e-commerce complète",
+          "Gestion des produits et stocks",
+          "Système de paiement sécurisé",
+          "Interface d'administration",
+          "Design premium responsive",
+          "Optimisation des performances"
+        ],
+        "duration": "4 mois | 2025",
+        "company": "Swiss Padel Stars"
+      },
+      {
+        "title": "Escape The Web",
+        "description": "Jeu interactif où les joueurs doivent résoudre des énigmes en interagissant avec une interface web. Chaque énigme est validée par des tests unitaires et E2E pour garantir une expérience utilisateur optimale.",
+        "fullDescription": "Développement d'un jeu web interactif innovant combinant énigmes et programmation. Les joueurs progressent en résolvant des défis techniques tout en apprenant les concepts de développement web. Le projet inclut un système de progression, sauvegarde des niveaux et validation automatique des solutions.",
+        "features": [
+          "Système de jeu interactif",
+          "Énigmes progressives",
+          "Tests unitaires et E2E",
+          "Sauvegarde de progression",
+          "Interface utilisateur gamifiée",
+          "Validation automatique"
+        ],
+        "duration": "3 mois | 2024",
+        "company": "Projet Personnel"
+      },
+      {
+        "title": "SuperMarket App",
+        "description": "Application mobile pour un supermarché permettant aux utilisateurs de parcourir les produits, gérer leur panier et passer des commandes en ligne.",
+        "fullDescription": "Développement d'une application mobile complète pour supermarché avec React Native. L'application offre une expérience d'achat fluide avec navigation par catégories, recherche avancée, gestion du panier et système de commandes. Interface optimisée pour mobile avec performances élevées.",
+        "features": [
+          "Navigation par catégories",
+          "Recherche et filtres avancés",
+          "Gestion du panier",
+          "Système de commandes",
+          "Interface mobile optimisée",
+          "Synchronisation en temps réel"
+        ],
+        "duration": "3 mois | 2024",
+        "company": "Projet Personnel"
+      },
+      {
+        "title": "Landing Page E-commerce Montres",
+        "description": "Page d'atterrissage pour une boutique en ligne de montres, optimisée pour la conversion avec un design épuré et des appels à l'action clairs.",
+        "fullDescription": "Création d'une landing page haute conversion pour une boutique de montres premium. Le design minimaliste met en valeur les produits avec une hiérarchie visuelle claire, des témoignages clients et des appels à l'action stratégiquement placés pour maximiser les conversions.",
+        "features": [
+          "Design minimaliste premium",
+          "Optimisation de conversion",
+          "Appels à l'action stratégiques",
+          "Témoignages clients",
+          "Responsive design",
+          "Animations d'engagement"
+        ],
+        "duration": "1 mois | 2024",
+        "company": "Projet Personnel"
+      },
+      {
+        "title": "Application de Gestion des Analyses Médicales",
+        "description": "Application web complète permettant de consulter les résultats des analyses médicales, saisir les résultats des patients et générer des statistiques. Interface intuitive avec espaces dédiés patients et médecins.",
+        "fullDescription": "Développement d'une application web sécurisée pour la gestion des analyses médicales. Le système permet aux patients de consulter leurs résultats et aux médecins de saisir des données avec génération automatique de rapports. Architecture MVC avec gestion des droits d'accès et sécurité renforcée.",
+        "features": [
+          "Gestion sécurisée des données",
+          "Espaces patients et médecins",
+          "Génération de rapports",
+          "Architecture MVC",
+          "Contrôle d'accès",
+          "Interface Bootstrap responsive"
+        ],
+        "duration": "3 mois | 2024",
+        "company": "École 3IL"
+      },
+      {
+        "title": "SuperMarket App",
+        "description": "Application mobile pour un supermarché permettant aux utilisateurs de parcourir les produits, gérer leur panier et passer des commandes en ligne.",
+        "fullDescription": "Développement d'une application mobile complète pour supermarché avec React Native. L'application offre une expérience d'achat fluide avec navigation par catégories, recherche avancée, gestion du panier et système de commandes. Interface optimisée pour mobile avec performances élevées.",
+        "features": [
+          "Parcours de produits intuitif",
+          "Gestion de panier fluide",
+          "Passer des commandes en ligne facilement",
+          "Interface utilisateur moderne",
+          "Optimisation pour les utilisateurs",
+          "Système de gestion de produits"
+        ],
+        "duration": "2025",
+        "company": "Projet Personnel"
+      },
+      {
+        "title": "Landing Page E-commerce Montres",
+        "description": "Page d'atterrissage pour une boutique en ligne de montres, optimisée pour la conversion avec un design épuré et des appels à l'action clairs.",
+        "fullDescription": "Création d'une landing page haute conversion pour une boutique de montres premium. Le design minimaliste met en valeur les produits avec une hiérarchie visuelle claire, des témoignages clients et des appels à l'action stratégiquement placés pour maximiser les conversions.",
+        "features": [
+          "Design responsive",
+          "Interface utilisateur moderne",
+          "Animations fluides",
+          "Appel à l'action clair",
+          "Optimisation UX/UI avancée",
+          "utilisation de figma pour le design"
+        ],
+        "duration": "2025",
+        "company": "Projet en formation"
+      }
+    ]
   },
   "skills": {
     "title": "Compétences",
-    "description": "Compétences techniques et expertise"
+    "description": "Compétences techniques et expertise",
+    "level": "Niveau",
+    "categories": [
+      {
+        "title": "Langages de Programmation"
+      },
+      {
+        "title": "Frameworks & Librairies"
+      },
+      {
+        "title": "Base de Données"
+      },
+      {
+        "title": "Outils & DevOps"
+      },
+      {
+        "title": "Langues",
+        "skills": [
+          {
+            "name": "Arabe",
+            "description": "Langue maternelle"
+          },
+          {
+            "name": "Français",
+            "description": "Niveau professionnel"
+          },
+          {
+            "name": "Espagnol",
+            "description": "Niveau intermédiaire"
+          },
+          {
+            "name": "Anglais",
+            "description": "Niveau intermédiaire"
+          }
+        ]
+      },
+      {
+        "title": "Compétences Transversales",
+        "skills": [
+          {
+            "name": "Travail d'équipe"
+          },
+          {
+            "name": "Communication"
+          },
+          {
+            "name": "Gestion de projet"
+          }
+        ]
+      }
+    ]
   },
   "techWatch": {
     "title": "Veille Technologique",
-    "description": "Dernières tendances et recherches technologiques"
+    "description": "Découvrez mes 6 sources principales de veille technologique pour rester à la pointe de l'innovation et du développement web moderne",
+    "exploreResources": "Explorer Plus de Ressources",
+    "hideResources": "Masquer les Ressources",
+    "additionalResources": {
+      "title": "Ressources Supplémentaires"
+    },
+    "items": [
+      {
+        "title": "Utilisation de ChatGPT",
+        "description": "L'utilisation de ChatGPT s'est répandue dans divers domaines, allant de l'éducation à la gestion des services clients. ChatGPT aide à automatiser les tâches de rédaction, offre un soutien interactif aux utilisateurs et améliore l'efficacité des processus en fournissant des réponses instantanées et précises.",
+        "category": "Intelligence Artificielle"
+      },
+      {
+        "title": "Cours sur Udemy et YouTube",
+        "description": "Les plateformes d'apprentissage en ligne telles qu'Udemy et YouTube sont des ressources inestimables pour les développeurs souhaitant acquérir de nouvelles compétences ou approfondir leurs connaissances. Ces plateformes offrent une vaste gamme de cours et de tutoriels.",
+        "category": "Formation Continue"
+      },
+      {
+        "title": "Groupes de Développeurs",
+        "description": "Les réseaux sociaux professionnels et communautaires comme LinkedIn, Reddit, et Stack Overflow sont des plateformes idéales pour les développeurs souhaitant rester informés des dernières tendances et partager des informations.",
+        "category": "Communauté Tech"
+      },
+      {
+        "title": "Articles Tech & Innovation",
+        "description": "La lecture d'articles et de blogs technologiques est cruciale pour rester à jour avec les innovations et les développements récents. Des sites comme TechCrunch, Wired, et Medium offrent des analyses approfondies et des nouvelles de l'industrie technologique.",
+        "category": "Actualités Tech"
+      },
+      {
+        "title": "W3Schools - Programmation",
+        "description": "W3Schools est une ressource incontournable pour les débutants en programmation. Le site offre des tutoriels interactifs et des exercices pratiques sur divers langages de programmation et technologies web.",
+        "category": "Apprentissage Code"
+      },
+      {
+        "title": "Sites de Cybersécurité",
+        "description": "La cybersécurité est une préoccupation majeure pour les développeurs et les entreprises. Des sites spécialisés comme Krebs on Security, SecurityWeek, et le blog de l'OWASP fournissent des informations vitales sur les menaces actuelles et les meilleures pratiques de sécurité.",
+        "category": "Sécurité"
+      }
+    ],
+    "additionalItems": [
+      {
+        "title": "GitHub & Open Source",
+        "description": "Exploration des projets open source sur GitHub pour découvrir de nouvelles technologies, étudier du code de qualité et contribuer à la communauté. GitHub Trending permet de suivre les technologies émergentes et les librairies populaires dans l'écosystème du développement.",
+        "category": "Open Source"
+      },
+      {
+        "title": "Documentation Technique",
+        "description": "Lecture régulière de la documentation officielle des frameworks et technologies (React, Vue, Angular, Node.js). Les changelogs et release notes permettent de suivre les évolutions, nouvelles fonctionnalités et bonnes pratiques recommandées par les créateurs des technologies.",
+        "category": "Documentation"
+      },
+      {
+        "title": "Coding Challenges & Hackathons",
+        "description": "Participation à des défis de programmation sur des plateformes comme HackerRank, CodeWars, et LeetCode. Les hackathons et concours de développement permettent de découvrir de nouvelles approches, tester des technologies récentes et améliorer ses compétences de résolution de problèmes.",
+        "category": "Pratique & Défis"
+      }
+    ]
   },
   "contact": {
-    "title": "Contact",
-    "description": "Entrez en contact avec moi",
+    "title": "Connectons-nous",
+    "subtitle": "Prêt à donner vie à vos idées ? Entamons une conversation sur votre prochain projet",
+    "error": "Une erreur s'est produite. Veuillez réessayer.",
     "form": {
-      "name": "Nom",
-      "email": "Email",
-      "message": "Message",
-      "send": "Envoyer"
+      "title": "Envoyer un Message",
+      "description": "J'aimerais avoir de vos nouvelles. Envoyez-moi un message et je vous répondrai dès que possible.",
+      "name": "Votre Nom",
+      "email": "Votre Email",
+      "message": "Votre Message",
+      "send": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "success": {
+        "title": "Message Envoyé !",
+        "message": "Merci de m'avoir contacté. Je vous répondrai bientôt."
+      }
+    },
+    "info": {
+      "title": "Entrer en Contact",
+      "description": "Connectez-vous avec moi via l'un de ces canaux. Je suis toujours ravi de discuter de nouvelles opportunités et collaborations."
+    },
+    "stats": {
+      "responseTime": "Temps de Réponse",
+      "replyRate": "Taux de Réponse"
     }
   }
 } 
